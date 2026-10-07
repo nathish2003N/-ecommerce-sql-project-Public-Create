@@ -44,7 +44,8 @@ Payment details for each order.
 - `payment_id` (PK), `order_id` (FK), `amount`, `payment_method` (UPI/COD/Card), `payment_status`, `payment_date`
 
 ### 7. `reviews` (388 records)
-Customer feedback for products.
+Customer feedback for products.<img width="1600" height="1141" alt="image" src="https://github.com/user-attachments/assets/763c09fa-c877-4685-8a0c-3dafc890ee6d" />
+
 - `review_id` (PK), `product_id` (FK), `customer_id` (FK), `rating` (1-5), `review_text`
 
 **Total Records: 5000**
